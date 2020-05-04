@@ -1,0 +1,55 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.boxjudul {
+    padding: 20px;
+    background-color: #006599;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.boxjudul2 {
+    padding: 20px;
+    background-color: #669ACC;
+    border-radius: 10px;
+}
+
+.boxjudul h2,
+h3,
+h5 {
+    color: #FDDA21;
+}
+
+table {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+span {
+    color: #FDDA21;
+}
+
+table {
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+}
+
+.tablekanan {
+    padding-left: 2rem !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .leftcontent {
+        text-align: left;
+        margin-left: 1rem;
+    }
+}
